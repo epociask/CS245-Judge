@@ -12,7 +12,7 @@ public static final int CANT_FIND = -1;
 	public static int findJudge(int N, int[][] trust) throws IndexOutOfBoundsException{
 
 		//Error case
-		if((N < 1 )|| (N > 1000))
+		if((N < 1 )|| (N > 9999))
 			throw new IndexOutOfBoundsException("Values cannot be less than 1 or greater than 1,000 \n");
 
       int[] trusted = new int[N+1];
